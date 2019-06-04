@@ -104,5 +104,5 @@ ve/
 # mypy
 .mypy_cache/
 
-/.DS_Store
-./.DS_Store
+.DS_Store
+ultimate_discord_smash_bot/.DS_Store

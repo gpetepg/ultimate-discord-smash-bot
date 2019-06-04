@@ -59,5 +59,3 @@ _ve_rm:
 _ve_rebuild: _ve_rm _ve_build
 
 #####
-
-# Add more Make targets here
