@@ -1,7 +1,9 @@
 # Work with Python 3.6
 import discord
+import re
 from discord.utils import get
 from credentials import TOKEN
+from characters import characters
 
 TOKEN = TOKEN
 
@@ -20,8 +22,26 @@ async def on_message(message):
         return
 
     if message.content.startswith("!bot"):
-        greetings = "Hello {0.author.mention} this is our bot here are its options".format(message)
+        greetings = f"""Hello {message.author.mention} this is our bot here are its utilities:
+
+!data <character name> : Returns a link to a character's data.
+!matchup <character 1> <character 2> : Returns a link with match up data between the two characters.
+"""
         await message.channel.send(greetings)
+
+    # @ToDo Create this logic
+    if message.content.startswith("!matchup"):
+        await message.channel.send("WIP")
+
+    if message.content.startswith("!data"):
+        # separate the !data from the message content and clear out any delimeters with spaces then check the list...
+        character = re.sub('[^a-zA-Z0-9]+', ' ', ' '.join(message.content.split(" ")[1:]))
+        if character in characters:
+            character = "_".join(message.content.split(" ")[1:])
+            character_data = f"https://ultimateframedata.com/{character}.php"
+            await message.channel.send(character_data)
+        else:
+            await message.channel.send("Could not find this character, please enter a valid character")
 
     # Don't need to check if the user already has the "Verified" role, if they already have it nothing will happen.
     if (message.channel == client.get_channel(_introduction_channel_id)) and (len(message.content) > 20 ):
@@ -33,11 +53,11 @@ async def on_member_join(member):
     """ When a member joins send them a DM.
     """
 
-    msg = """Hello {0.display_name}. Welcome to our Smash Ultimate Discord.
+    msg = f"""Hello {member.display_name}. Welcome to our Smash Ultimate Discord.
 Please go to the #Introduction channel and in ONE MESSAGE please message with the following format here: 
     - Name 
     - Whose friend you are or who invited you 
-    - Nintendo friend code """.format(member)
+    - Nintendo friend code"""
     await member.send(msg)
 
 

@@ -1,4 +1,8 @@
 # Byte-compiled / optimized / DLL files
+
+# Repo specific files
+ultimate_discord_smash_bot/test_credentials.py
+
 __pycache__/
 *.py[cod]
 *$py.class
