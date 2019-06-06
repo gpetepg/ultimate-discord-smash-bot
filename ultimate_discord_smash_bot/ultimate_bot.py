@@ -2,7 +2,7 @@
 import discord
 import re
 from discord.utils import get
-from test_credentials import TOKEN
+from credentials import TOKEN
 from characters import characters
 
 TOKEN = TOKEN
