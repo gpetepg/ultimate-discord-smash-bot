@@ -9,7 +9,7 @@ TOKEN = TOKEN
 
 client = discord.Client()
 
-######### Helper functions ##############
+######### Helper functions #########
 
 def _replace_spaces_with_dashes(message):
     return message.replace(" ", "-")
@@ -32,11 +32,11 @@ def _display_matchup(message):
     url = f"https://ssbworld.com/matchup/{endResult}"
     return url
 
-#########################################
+######### Message based events #########
 
 @client.event
 async def on_message(message):
-    """ Messaged based events"""
+    """Message based events"""
     
     _introduction_channel_id = 521771464668610561
     _verified_role_id = 585273441058553866
@@ -77,11 +77,11 @@ async def on_message(message):
         role = discord.utils.get(message.guild.roles, id=_verified_role_id)
         await message.author.add_roles(role)
 
-#########################################
+######### Member based events #########
 
 @client.event
 async def on_member_join(member):
-    """ When a member joining based events. """
+    """Member based events"""
 
     # When a member joins tell them what to do.
     msg = f"""Hello {member.display_name}. Welcome to our Smash Ultimate Discord.
