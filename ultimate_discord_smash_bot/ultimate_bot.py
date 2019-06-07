@@ -37,10 +37,10 @@ async def on_message(message):
 
     if message.content.startswith("!data"):
         # separate the !data from the message content and clear out any delimeters with spaces then check the list...
-        character = re.sub('[^a-zA-Z0-9]+', ' ', ' '.join(message.content.split(" ")[1:]))
+        character = re.sub('[^a-zA-Z0-9]+', ' ', ' '.join(message.content.lower().split(" ")[1:]))
         if character in characters:
             character = "_".join(message.content.split(" ")[1:])
-            character_data = f"https://ultimateframedata.com/{character}.php"
+            character_data = f"https://ultimateframedata.com/{character}.php".lower()
             await message.channel.send(character_data)
         else:
             await message.channel.send("Could not find this character, please enter a valid character")
