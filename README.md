@@ -7,9 +7,9 @@ You will need to provide your own servers token imported from `credentials.py`.
 
 Basic setup using `bash` and `GNU Make`. I recommend using a [virtual environment](https://docs.python.org/3/library/venv.html) anyway if you chose to not use the `.env` or `Makefile`.
 
-	git clone git@github.com:gpetepg/ultimate-discord-smash-bot.git
-    make
+    git clone git@github.com:gpetepg/ultimate-discord-smash-bot.git
     source setup.env
+    make
     source ve/bin/activate
     pip install -r requirements.txt
     python3 ultimate_bot.py
