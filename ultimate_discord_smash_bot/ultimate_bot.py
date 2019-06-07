@@ -31,7 +31,9 @@ async def on_message(message):
 
     # @ToDo Create this logic
     if message.content.startswith("!matchup"):
-        await message.channel.send("WIP")
+        matchup_message = display_matchup(message)
+        await message.channel.send(matchup_message)
+
 
     if message.content.startswith("!data"):
         # separate the !data from the message content and clear out any delimeters with spaces then check the list...
@@ -60,6 +62,26 @@ Please go to the #Introduction channel and in ONE MESSAGE please message with th
     - Nintendo friend code"""
     await member.send(msg)
 
+def replace_spaces_with_dashes(message):
+    return message.replace(" ", "-")
+
+def display_matchup(message):
+    message.content = message.content.replace("!matchup", "")
+    foundChars = []
+    for c in characters:
+        if c not in message.content:
+            continue
+        charIndex = message.content.index(c)
+        foundChars.append(c)
+        message.content.replace(c, "")
+    if len(foundChars) != 2:
+        return "You must provide only 2 characters!"
+        return
+    foundChars.insert(1, "vs")
+    endResult = map(replace_spaces_with_dashes, reversed(foundChars))
+    endResult = "-".join(endResult)
+    url = f"https://ssbworld.com/matchup/{endResult}"
+    return url
 
 @client.event
 async def on_ready():
