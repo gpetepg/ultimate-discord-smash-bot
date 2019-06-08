@@ -5,7 +5,7 @@ Only dependancy is [`discord`](https://github.com/Rapptz/discord.py) but I've in
 
 You will need to provide your own servers token imported from `credentials.py`.
 
-##### Quickstart #####
+### Quickstart ###
 
 Basic setup using `bash` and `GNU Make`. I recommend using a [virtual environment](https://docs.python.org/3/library/venv.html) anyway if you chose to not use the `.env` or `Makefile`.
 
