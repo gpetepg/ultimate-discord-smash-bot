@@ -1,7 +1,7 @@
 """Message based helper functions"""
 
 import re
-from characters import characters
+from ultimate_discord_smash_bot.characters import characters
 
 def _replace_spaces_with_dashes(message):
     return message.replace(" ", "-")

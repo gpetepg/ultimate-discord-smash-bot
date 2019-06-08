@@ -3,7 +3,7 @@
 import discord
 from discord.utils import get
 
-from credentials import TOKEN
+from test_credentials import TOKEN
 import message_functions as msg
 
 TOKEN = TOKEN
