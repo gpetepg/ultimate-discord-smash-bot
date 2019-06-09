@@ -26,6 +26,9 @@ async def on_message(message):
     if message.content.startswith("!bot"):
         await message.channel.send(msg._display_greeting(message))
 
+    if message.content.startswith("!elite"):
+        await message.channel.send("https://www.elitegsp.com/")
+
     # This displays match-up info
     if message.content.startswith("!matchup"):
         await message.channel.send(msg._display_matchup(message))
