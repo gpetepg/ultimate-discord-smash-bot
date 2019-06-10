@@ -12,6 +12,7 @@ for line in file:
 		'name': line,
 		'id': id,
 		'aliases': [line.lower()]
+
 	}
 	# Check for if this is an echo and use e as id
 	if "Echo" in line:
@@ -19,7 +20,8 @@ for line in file:
 		characterObj['id'] -= 1
 		characterObj['id'] = str(id) + "e"
 		characterObj['aliases'][0] = characterObj['aliases'][0].replace("(echo)", "").strip()
-		print(characterObj['aliases'][0])
+		
+	characterObj['short_slug'] = characterObj['aliases'][0].replace(" ", "-").replace("." ,"")
 
 	data['characters'].append(characterObj)
 	id += 1

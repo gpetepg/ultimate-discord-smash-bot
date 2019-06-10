@@ -4,599 +4,609 @@
       "name": "Mario",
       "id": 1,
       "aliases": [
-        "mario",
-        "jumpman"
-      ]
+        "mario"
+      ],
+      "short_slug": "mario"
     },
     {
       "name": "Donkey Kong",
       "id": 2,
       "aliases": [
-        "donkey kong",
-        "dk"
-      ]
+        "donkey kong"
+      ],
+      "short_slug": "donkey-kong"
     },
     {
       "name": "Link",
       "id": 3,
       "aliases": [
         "link"
-      ]
+      ],
+      "short_slug": "link"
     },
     {
       "name": "Samus",
       "id": 4,
       "aliases": [
         "samus"
-      ]
+      ],
+      "short_slug": "samus"
     },
     {
       "name": "Dark Samus (Echo)",
       "id": "4e",
       "aliases": [
         "dark samus"
-      ]
+      ],
+      "short_slug": "dark-samus"
     },
     {
       "name": "Yoshi",
       "id": 5,
       "aliases": [
         "yoshi"
-      ]
+      ],
+      "short_slug": "yoshi"
     },
     {
       "name": "Kirby",
       "id": 6,
       "aliases": [
         "kirby"
-      ]
+      ],
+      "short_slug": "kirby"
     },
     {
       "name": "Fox",
       "id": 7,
       "aliases": [
         "fox"
-      ]
+      ],
+      "short_slug": "fox"
     },
     {
       "name": "Pikachu",
       "id": 8,
       "aliases": [
         "pikachu"
-      ]
+      ],
+      "short_slug": "pikachu"
     },
     {
       "name": "Luigi",
       "id": 9,
       "aliases": [
         "luigi"
-      ]
+      ],
+      "short_slug": "luigi"
     },
     {
       "name": "Ness",
       "id": 10,
       "aliases": [
         "ness"
-      ]
+      ],
+      "short_slug": "ness"
     },
     {
       "name": "Captain Falcon",
       "id": 11,
       "aliases": [
-        "captain falcon",
-        "falcon"
-      ]
+        "captain falcon"
+      ],
+      "short_slug": "captain-falcon"
     },
     {
       "name": "Jigglypuff",
       "id": 12,
       "aliases": [
-        "jigglypuff",
-        "jiggs",
-        "jiggly"
-      ]
+        "jigglypuff"
+      ],
+      "short_slug": "jigglypuff"
     },
     {
       "name": "Peach",
       "id": 13,
       "aliases": [
-        "peach",
-        "princess peach"
-      ]
+        "peach"
+      ],
+      "short_slug": "peach"
     },
     {
       "name": "Daisy (Echo)",
       "id": "13e",
       "aliases": [
         "daisy"
-      ]
+      ],
+      "short_slug": "daisy"
     },
     {
       "name": "Bowser",
       "id": 14,
       "aliases": [
         "bowser"
-      ]
+      ],
+      "short_slug": "bowser"
     },
     {
       "name": "Ice Climbers",
       "id": 15,
       "aliases": [
-        "ice climbers",
-        "ics",
-        "nana",
-        "popo"
-      ]
+        "ice climbers"
+      ],
+      "short_slug": "ice-climbers"
     },
     {
       "name": "Sheik",
       "id": 16,
       "aliases": [
         "sheik"
-      ]
+      ],
+      "short_slug": "sheik"
     },
     {
       "name": "Zelda",
       "id": 17,
       "aliases": [
         "zelda"
-      ]
+      ],
+      "short_slug": "zelda"
     },
     {
       "name": "Dr. Mario",
       "id": 18,
       "aliases": [
-        "dr. mario",
-        "doc",
-        "dr mario"
-        "doctor mario"
-      ]
+        "dr. mario"
+      ],
+      "short_slug": "dr-mario"
     },
     {
       "name": "Pichu",
       "id": 19,
       "aliases": [
         "pichu"
-      ]
+      ],
+      "short_slug": "pichu"
     },
     {
       "name": "Falco",
       "id": 20,
       "aliases": [
         "falco"
-      ]
+      ],
+      "short_slug": "falco"
     },
     {
       "name": "Marth",
       "id": 21,
       "aliases": [
         "marth"
-      ]
+      ],
+      "short_slug": "marth"
     },
     {
       "name": "Lucina (Echo)",
       "id": "21e",
       "aliases": [
         "lucina"
-      ]
+      ],
+      "short_slug": "lucina"
     },
     {
       "name": "Young Link",
       "id": 22,
       "aliases": [
-        "young link",
-        "yink"
-      ]
+        "young link"
+      ],
+      "short_slug": "young-link"
     },
     {
       "name": "Ganondorf",
       "id": 23,
       "aliases": [
-        "ganondorf",
-        "ganon"
-      ]
+        "ganondorf"
+      ],
+      "short_slug": "ganondorf"
     },
     {
       "name": "Mewtwo",
       "id": 24,
       "aliases": [
-        "mewtwo",
-        "m2"
-      ]
+        "mewtwo"
+      ],
+      "short_slug": "mewtwo"
     },
     {
       "name": "Roy",
       "id": 25,
-      "isBowserJr": false,
       "aliases": [
         "roy"
-      ]
+      ],
+      "short_slug": "roy"
     },
     {
       "name": "Chrom (Echo)",
       "id": "25e",
       "aliases": [
         "chrom"
-      ]
+      ],
+      "short_slug": "chrom"
     },
     {
       "name": "Mr. Game & Watch",
       "id": 26,
       "aliases": [
-        "mr. game & watch",
-        "game and watch"
-        "game n watch",
-        "gnw"
-      ]
+        "mr. game & watch"
+      ],
+      "short_slug": "mr-game-&-watch"
     },
     {
       "name": "Meta Knight",
       "id": 27,
       "aliases": [
-        "meta knight",
-        "mk"
-      ]
+        "meta knight"
+      ],
+      "short_slug": "meta-knight"
     },
     {
       "name": "Pit",
       "id": 28,
       "aliases": [
         "pit"
-      ]
+      ],
+      "short_slug": "pit"
     },
     {
       "name": "Dark Pit (Echo)",
       "id": "28e",
       "aliases": [
         "dark pit"
-      ]
+      ],
+      "short_slug": "dark-pit"
     },
     {
       "name": "Zero Suit Samus",
       "id": 29,
       "aliases": [
-        "zero suit samus",
-        "zss"
-      ]
+        "zero suit samus"
+      ],
+      "short_slug": "zero-suit-samus"
     },
     {
       "name": "Wario",
       "id": 30,
       "aliases": [
         "wario"
-      ]
+      ],
+      "short_slug": "wario"
     },
     {
       "name": "Snake",
       "id": 31,
       "aliases": [
         "snake"
-      ]
+      ],
+      "short_slug": "snake"
     },
     {
       "name": "Ike",
       "id": 32,
       "aliases": [
         "ike"
-      ]
+      ],
+      "short_slug": "ike"
     },
     {
       "name": "Pokemon Trainer (Squirtle)",
       "id": 33,
       "aliases": [
-        "pokemon trainer (squirtle)",
-        "squirtle"
-      ]
+        "pokemon trainer (squirtle)"
+      ],
+      "short_slug": "pokemon-trainer-(squirtle)"
     },
     {
       "name": "Pokemon Trainer (Ivysaur)",
       "id": 34,
       "aliases": [
-        "pokemon trainer (ivysaur)",
-        "ivysaur"
-      ]
+        "pokemon trainer (ivysaur)"
+      ],
+      "short_slug": "pokemon-trainer-(ivysaur)"
     },
     {
       "name": "Pokemon Trainer (Charizard)",
       "id": 35,
       "aliases": [
-        "pokemon trainer (charizard)",
-        "charizard",
-        "zard"
-      ]
+        "pokemon trainer (charizard)"
+      ],
+      "short_slug": "pokemon-trainer-(charizard)"
     },
     {
       "name": "Diddy Kong",
       "id": 36,
       "aliases": [
-        "diddy kong",
-        "diddy"
-      ]
+        "diddy kong"
+      ],
+      "short_slug": "diddy-kong"
     },
     {
       "name": "Lucas",
       "id": 37,
       "aliases": [
         "lucas"
-      ]
+      ],
+      "short_slug": "lucas"
     },
     {
       "name": "Sonic",
       "id": 38,
       "aliases": [
-        "sonic",
-        "sanic"
-      ]
+        "sonic"
+      ],
+      "short_slug": "sonic"
     },
     {
       "name": "King Dedede",
       "id": 39,
       "aliases": [
-        "king dedede",
-        "d3",
-        "king de de de"
-      ]
+        "king dedede"
+      ],
+      "short_slug": "king-dedede"
     },
     {
       "name": "Olimar",
       "id": 40,
       "aliases": [
         "olimar"
-      ]
+      ],
+      "short_slug": "olimar"
     },
     {
       "name": "Lucario",
       "id": 41,
       "aliases": [
         "lucario"
-      ]
+      ],
+      "short_slug": "lucario"
     },
     {
       "name": "R.O.B.",
       "id": 42,
       "aliases": [
-        "r.o.b.",
-        "rob"
-      ]
+        "r.o.b."
+      ],
+      "short_slug": "rob"
     },
     {
       "name": "Toon Link",
       "id": 43,
       "aliases": [
-        "toon link",
-        "tink"
-      ]
+        "toon link"
+      ],
+      "short_slug": "toon-link"
     },
     {
       "name": "Wolf",
       "id": 44,
       "aliases": [
         "wolf"
-      ]
+      ],
+      "short_slug": "wolf"
     },
     {
       "name": "Villager",
       "id": 45,
       "aliases": [
         "villager"
-      ]
+      ],
+      "short_slug": "villager"
     },
     {
       "name": "Mega Man",
       "id": 46,
       "aliases": [
-        "mega man",
-        "megaman",
-        "rockman",
-        "rock man"
-      ]
+        "mega man"
+      ],
+      "short_slug": "mega-man"
     },
     {
       "name": "Wii Fit Trainer",
       "id": 47,
       "aliases": [
-        "wii fit trainer",
-        "wft"
-      ]
+        "wii fit trainer"
+      ],
+      "short_slug": "wii-fit-trainer"
     },
     {
       "name": "Rosalina & Luma",
       "id": 48,
       "aliases": [
-        "rosalina & luma",
-        "rosaluma",
-        "rosa"
-      ]
+        "rosalina & luma"
+      ],
+      "short_slug": "rosalina-&-luma"
     },
     {
       "name": "Little Mac",
       "id": 49,
       "aliases": [
-        "little mac",
-        "mac"
-      ]
+        "little mac"
+      ],
+      "short_slug": "little-mac"
     },
     {
       "name": "Greninja",
       "id": 50,
       "aliases": [
         "greninja"
-      ]
+      ],
+      "short_slug": "greninja"
     },
     {
       "name": "Mii Fighter (Brawler)",
       "id": 51,
       "aliases": [
-        "mii fighter (brawler)",
-        "mii brawler"
-      ]
+        "mii fighter (brawler)"
+      ],
+      "short_slug": "mii-fighter-(brawler)"
     },
     {
       "name": "Mii Fighter (Swordfighter)",
       "id": 52,
       "aliases": [
-        "mii fighter (swordfighter)",
-        "mii swordfighter",
-        "mii swordsman"
-      ]
+        "mii fighter (swordfighter)"
+      ],
+      "short_slug": "mii-fighter-(swordfighter)"
     },
     {
       "name": "Mii Fighter (Gunner)",
       "id": 53,
       "aliases": [
-        "mii fighter (gunner)",
-        "mii gunner"
-      ]
+        "mii fighter (gunner)"
+      ],
+      "short_slug": "mii-fighter-(gunner)"
     },
     {
       "name": "Palutena",
       "id": 54,
       "aliases": [
-        "palutena",
-        "palu"
-      ]
+        "palutena"
+      ],
+      "short_slug": "palutena"
     },
     {
       "name": "Pac-Man",
       "id": 55,
       "aliases": [
-        "pac-man",
-        "pacman",
-        "pac"
-      ]
+        "pac-man"
+      ],
+      "short_slug": "pac-man"
     },
     {
       "name": "Robin",
       "id": 56,
       "aliases": [
         "robin"
-      ]
+      ],
+      "short_slug": "robin"
     },
     {
       "name": "Shulk",
       "id": 57,
       "aliases": [
         "shulk"
-      ]
+      ],
+      "short_slug": "shulk"
     },
     {
       "name": "Bowser Jr.",
       "id": 58,
-      "isBowserJr": true,
       "aliases": [
         "bowser jr."
-        "bj",
-        "larry",
-        "morton",
-        "wendy",
-        "iggy",
-        "roy",
-        "lemmy",
-        "ludwig"
-      ]
+      ],
+      "short_slug": "bowser-jr"
     },
     {
       "name": "Duck Hunt",
       "id": 59,
       "aliases": [
-        "duck hunt",
-        "dh",
-        "duck hunt dog",
-        "dhd"
-      ]
+        "duck hunt"
+      ],
+      "short_slug": "duck-hunt"
     },
     {
       "name": "Ryu",
       "id": 60,
       "aliases": [
         "ryu"
-      ]
+      ],
+      "short_slug": "ryu"
     },
     {
       "name": "Ken (Echo)",
       "id": "60e",
       "aliases": [
         "ken"
-      ]
+      ],
+      "short_slug": "ken"
     },
     {
       "name": "Cloud",
       "id": 61,
       "aliases": [
         "cloud"
-      ]
+      ],
+      "short_slug": "cloud"
     },
     {
       "name": "Corrin",
       "id": 62,
       "aliases": [
         "corrin"
-      ]
+      ],
+      "short_slug": "corrin"
     },
     {
       "name": "Bayonetta",
       "id": 63,
       "aliases": [
-        "bayonetta",
-        "bayo"
-      ]
+        "bayonetta"
+      ],
+      "short_slug": "bayonetta"
     },
     {
       "name": "Inkling",
       "id": 64,
       "aliases": [
-        "inkling",
-        "inklings"
-      ]
+        "inkling"
+      ],
+      "short_slug": "inkling"
     },
     {
       "name": "Ridley",
       "id": 65,
       "aliases": [
         "ridley"
-      ]
+      ],
+      "short_slug": "ridley"
     },
     {
       "name": "Simon Belmont",
       "id": 66,
       "aliases": [
-        "simon belmont",
-        "simon"
-      ]
+        "simon belmont"
+      ],
+      "short_slug": "simon-belmont"
     },
     {
       "name": "Richter (Echo)",
       "id": "66e",
       "aliases": [
-      	"richter belmont",
         "richter"
-      ]
+      ],
+      "short_slug": "richter"
     },
     {
       "name": "King K. Rool",
       "id": 67,
       "aliases": [
-        "king k. rool",
-        "king k rool",
-        "k rool",
-        "krool",
-        "king krool"
-      ]
+        "king k. rool"
+      ],
+      "short_slug": "king-k-rool"
     },
     {
       "name": "Isabelle",
       "id": 68,
       "aliases": [
         "isabelle"
-      ]
+      ],
+      "short_slug": "isabelle"
     },
     {
       "name": "Incineroar",
       "id": 69,
       "aliases": [
-        "incineroar",
-        "incin"
-      ]
+        "incineroar"
+      ],
+      "short_slug": "incineroar"
     }
   ]
 }
