@@ -1,0 +1,76 @@
+Mario
+Donkey Kong
+Link
+Samus
+Dark Samus (Echo)
+Yoshi
+Kirby
+Fox
+Pikachu
+Luigi
+Ness
+Captain Falcon
+Jigglypuff
+Peach
+Daisy (Echo)
+Bowser
+Ice Climbers
+Sheik
+Zelda
+Dr. Mario
+Pichu
+Falco
+Marth
+Lucina (Echo)
+Young Link
+Ganondorf
+Mewtwo
+Roy
+Chrom (Echo)
+Mr. Game & Watch
+Meta Knight
+Pit
+Dark Pit (Echo)
+Zero Suit Samus
+Wario
+Snake
+Ike
+Pokemon Trainer (Squirtle)
+Pokemon Trainer (Ivysaur)
+Pokemon Trainer (Charizard)
+Diddy Kong
+Lucas
+Sonic
+King Dedede
+Olimar
+Lucario
+R.O.B.
+Toon Link
+Wolf
+Villager
+Mega Man
+Wii Fit Trainer
+Rosalina & Luma
+Little Mac
+Greninja
+Mii Fighter (Brawler)
+Mii Fighter (Swordfighter)
+Mii Fighter (Gunner)
+Palutena
+Pac-Man
+Robin
+Shulk
+Bowser Jr.
+Duck Hunt
+Ryu
+Ken (Echo)
+Cloud
+Corrin
+Bayonetta
+Inkling
+Ridley
+Simon Belmont
+Richter (Echo)
+King K. Rool
+Isabelle
+Incineroar

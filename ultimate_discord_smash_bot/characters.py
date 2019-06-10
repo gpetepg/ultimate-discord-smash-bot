@@ -40,7 +40,6 @@ characters = [
 	'mega man', 
 	'meta knight', 
 	'mewtwo', 
-	
 	'mii brawler', 
 	'mii gunner', 
 	'mii swordfighter', 
@@ -78,3 +77,14 @@ characters = [
 	'zelda', 
 	'zero suit samus'
 ]
+
+def get_characters_for_elite_gsp():
+	eliteGSPChars = characters
+	eliteGSPChars.remove('squirtle')
+	eliteGSPChars.remove('ivysaur')
+	eliteGSPChars.remove('charizard')
+
+	eliteGSPChars.add('pokemon trainer')
+
+	return eliteGSPChars;
+
