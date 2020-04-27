@@ -3,7 +3,7 @@
 #
 
 ifeq (${ULTIMATE_DISCORD_SMASH_BOT_DIR},)
-  $(error source ht-setup.env)
+  $(error source setup.env)
 endif
 
 SHELL:=bash
