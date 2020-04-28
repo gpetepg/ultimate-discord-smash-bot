@@ -39,4 +39,6 @@ def _display_greeting(message):
 !data <character name> : Returns a link to a character's data.
 !matchup <character 1> <character 2> : Returns a link with match up data between the two characters.
 !elite : Returns a link to elite smash GSP tracker.
+
+Source code can be found here: https://github.com/gpetepg/ultimate-discord-smash-bot
 """
