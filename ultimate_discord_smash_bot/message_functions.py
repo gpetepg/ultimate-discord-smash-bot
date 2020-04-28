@@ -8,13 +8,12 @@ def _replace_spaces_with_dashes(message):
 
 def _display_matchup(message):
     message.content = message.content.replace("!matchup", "")
-    messgae.content = message.content.lower()
     foundChars = []
     for c in characters:
-        if c not in message.content:
+        if c.lower() not in message.content:
             continue
         charIndex = message.content.index(c)
-        foundChars.append(c)
+        foundChars.append(c.lower())
         message.content.replace(c, "")
 
     if len(foundChars) != 2:
