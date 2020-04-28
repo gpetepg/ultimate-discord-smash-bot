@@ -10,7 +10,7 @@ def _display_matchup(message):
     message.content = message.content.replace("!matchup", "")
     foundChars = []
     for c in characters:
-        if c.lower() not in message.content:
+        if c not in message.content.lower():
             continue
         charIndex = message.content.index(c)
         foundChars.append(c.lower())
